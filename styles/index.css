@@ -1,0 +1,6 @@
+/* definitions */
+@import "./definitions/colors.css";
+@import "./definitions/fonts.css";
+
+/* sections */
+@import "./sections/sponsors.css";
