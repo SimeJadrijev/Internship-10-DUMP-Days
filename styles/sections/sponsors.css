@@ -25,7 +25,6 @@
         margin-bottom: 265px;
     }
     .sponsors h4{
-        width: 400px;
         height: 58px;
         color: var(--white);
         font-family: "FuseV2Display-Regular";
@@ -121,12 +120,40 @@
         padding-right: 104px;
         gap: 108px;
         margin: 0;
+        justify-content: center;
 
     }
     .silver-sponsors-logos img{
         margin: 0 0 20px 0;
         width: 115px;
         height: 17px;
+    }
+
+    #bronze-sponsors-title, #organization-partners-title,
+    #giveaway-sponsor-title, #friends-title{
+        margin-top: 308px;
+    }
+
+    .bronze-sponsors-logos{
+        display: flex;
+        flex-direction: row;
+        gap: 103px;
+        margin: 0;
+    }
+
+    .organization-partners-logos{
+        display: flex;
+        gap: 175px;
+    }
+
+    .media-sponsors-logos{
+        display: flex;
+        gap: 110px;
+    }
+
+    .media-sponsors-logos{
+        display: flex;
+        gap: 255px;
     }
 
 
