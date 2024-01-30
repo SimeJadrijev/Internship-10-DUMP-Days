@@ -1,0 +1,71 @@
+.application{
+    display: flex;
+    flex-direction: column;
+    margin-top: 450px;
+}
+.application h2{
+    width: 512px;
+    height: 110px;
+    color: #FFF;
+    font-family: "FuseV2Display-Regular";
+    font-size: 122px;
+    font-weight: 800;
+    line-height: 120px; /* 98.361% */
+    letter-spacing: -2.44px;
+    align-self: center;
+    margin-bottom: 170px;
+}
+
+.app-content{
+    display: flex;
+    flex-direction: row;
+    gap: 237px;
+}
+
+.app-content-left{
+    display: flex;
+    flex-direction: column;
+}
+.app-content-left span{
+    width: 142px;
+    height: 15.245px;
+    color: #FFF;
+    font-family: "FuseV2Display-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    margin-bottom: 164px;
+}
+
+.my-schedule{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin-bottom: 129px;
+}
+.my-schedule h4{
+    width: 322px;
+    height: 57.789px;
+    color: #FFF;
+    font-family: "FuseV2Display-Regular";
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 68px; /* 125.926% */
+    letter-spacing: -0.54px;
+    margin: 0;
+}
+.my-schedule p{
+    width: 333px;
+    height: 81.585px;
+    color: #F5F5F5;
+    font-family: "FuseV2Text-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin: 0;
+}
+
+.app-content img{
+    width: 444px;
+    height: 737px;
+}
