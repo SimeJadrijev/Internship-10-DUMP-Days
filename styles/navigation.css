@@ -1,0 +1,48 @@
+nav {
+  width: 86%;
+  margin-top: 32px;
+  margin-left: 7%;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 32px;
+  width: 128px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+
+.nav-content {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+
+nav path {
+  fill: #f5f5f7;
+}
+
+.nav-content a {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Fuse V.2 Display";
+  line-height: 16px;
+  text-decoration: none;
+  color: #f5f5f7;
+}
+
+.nav-content a:hover {
+  background: linear-gradient(
+    44.61deg,
+    #00b5c1 9.43%,
+    #4336b9 41.88%,
+    #fa4343 106.56%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
