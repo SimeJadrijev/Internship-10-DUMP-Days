@@ -1,24 +1,27 @@
 @font-face {
-  font-family: "Display Book Font";
+  font-family: "Fuse V.2 Display";
   src: url(../assets/fonts/FuseV.2Display-Book.woff2) format("woff2");
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: "Display Book Italic Font";
+  font-family: "Fuse V.2 Display";
   src: url(../assets/fonts/FuseV.2Display-BookItalic.woff2) format("woff2");
-  font: bold italic;
+  font-weight: 400;
+  font-style: italic;
 }
 
 @font-face {
-  font-family: "Display ExtraBold Font";
+  font-family: "Fuse V.2 Display";
   src: url(../assets/fonts/FuseV.2Display-ExtraBold.woff2) format("woff2");
   font-weight: 800;
 }
 
 @font-face {
-  font-family: "Display ExtraBoldItalic Font";
+  font-family: "Fuse V.2 Display";
   src: url(../assets/fonts/FuseV.2Display-ExtraBoldItalic.woff2) format("woff2");
   font-weight: 800;
+  font-style: italic;
 }
 
 @font-face {
