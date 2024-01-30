@@ -3,6 +3,24 @@
 @import "./definitions/fonts.css";
 
 /* sections */
+
+/* .container {
+    width: min(100% - 3rem, 900px);
+    margin-inline: auto;
+} */
+
+/* .asd {
+    display: grid;
+    grid-template-areas: "
+        "prvi", "drugi", "treci"
+    "
+}
+
+div {
+    grid-area: a;
+} */
+
 @import "./sections/sponsors.css";
 @import "./sections/looking-for-job.css";
-@import "./sections/application.css"
+@import "./sections/application.css";
+@import "./sections/luka-abrus.css";
