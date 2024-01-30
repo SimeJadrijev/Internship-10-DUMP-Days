@@ -5,40 +5,14 @@
 
 /* sections */
 
-/* .container {
-    width: min(100% - 3rem, 900px);
-    margin-inline: auto;
-} */
-
-/* .asd {
-    display: grid;
-    grid-template-areas: "
-        "prvi", "drugi", "treci"
-    "
-}
-
-div {
-    grid-area: a;
-} */
-
 @import "./sections/sponsors.css";
-<<<<<<< HEAD
 @import "./sections/looking-for-job.css";
+@import "./sections/navigation.css";
+@import "./sections/main.css";
+@import "./sections/conference.css";
 @import "./sections/application.css";
 @import "./sections/luka-abrus.css";
-=======
-@import "./sections/looking-for-job.css"
-@import "font.css";
-@import "navigation.css";
-@import "main.css";
-@import "conference.css";
 
-* {
-  margin: 0;
-  padding: 0;
-  background-color: #000000;
-  color: #f5f5f7;
-}
 
 button {
   height: 44px;
@@ -49,7 +23,7 @@ button {
   line-height: 16px;
   font-weight: 800;
   text-transform: uppercase;
-  font-family: "Fuse V.2 Display";
+  font-family: "FuseV2Display-Regular";
   letter-spacing: 1.28px;
   padding: 14px 32px;
   border-width: 1px;
@@ -83,4 +57,3 @@ button:hover {
   animation-timing-function: ease-out;
   animation-duration: 300ms;
 }
->>>>>>> 40d042cc540c0474525821d3a422d01c60af5887
