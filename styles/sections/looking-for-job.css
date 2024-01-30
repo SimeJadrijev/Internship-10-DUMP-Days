@@ -1,0 +1,45 @@
+.looking-for-job{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.looking-for-job-intro{
+    display: flex;
+    flex-direction: column;
+    margin-right: 728px;
+    margin-left: 312px;
+}
+.looking-for-job-intro h4{
+    color: var(--white);
+    font-family: "FuseV2Display-Regular";
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 68px; /* 125.926% */
+    letter-spacing: -0.54px;
+    width: 400px;
+    height: 58px;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.looking-for-job-intro p{
+    color: var(--light-gray);
+    font-family: "FuseV2Text-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    width: 400px;
+    height: 62px;
+    padding: 0;
+    margin-bottom: 50px;
+}
+.arrows{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.arrows img{
+    background-color: rgba(245, 245, 247, 0.05);
+    padding: 16px;
+
+}
