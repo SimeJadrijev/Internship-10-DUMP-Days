@@ -41,5 +41,92 @@
 .arrows img{
     background-color: rgba(245, 245, 247, 0.05);
     padding: 16px;
+    cursor: pointer;
+}
 
+.big-job-ads{
+    display: flex;
+    flex-direction: row;
+}
+
+.big-job-ad{
+    display: flex;
+    flex-direction: row;
+    padding: 24px 40px 24px 24px;
+}
+
+.job-main-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 55px;
+}
+
+.job-title{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.job-title img{
+    width: 59px;
+    height: 40px;
+    margin-bottom: 0;
+}
+.job-title h5{
+    width: 233px;
+    color: var(--white);
+    font-family: "FuseV2Display-Regular";
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 40px; /* 111.111% */
+    margin-top: 0;
+}
+
+.job-main-information span{
+    color: var(--white);
+    font-family: "FuseV2Display-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.job-ad-image{
+    margin-right: 24px;
+}
+
+.job-caption{
+    display: flex;
+    margin-left: 0;
+    flex-direction: column;
+}
+.job-caption p{
+    color: var(--light-gray);
+    font-family: "FuseV2Text-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    width: 396px;
+}
+.job-caption span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--white);
+    font-family: "FuseV2Display-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    gap: 8px;
+    cursor: pointer;
+}
+.job-caption span img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 0.208px 2.335px 0.208px 2.355px;
 }
