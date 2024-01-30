@@ -6,16 +6,19 @@
 @font-face {
   font-family: "Display Book Italic Font";
   src: url(../assets/fonts/FuseV.2Display-BookItalic.woff2) format("woff2");
+  font: bold italic;
 }
 
 @font-face {
   font-family: "Display ExtraBold Font";
   src: url(../assets/fonts/FuseV.2Display-ExtraBold.woff2) format("woff2");
+  font-weight: 800;
 }
 
 @font-face {
   font-family: "Display ExtraBoldItalic Font";
   src: url(../assets/fonts/FuseV.2Display-ExtraBoldItalic.woff2) format("woff2");
+  font-weight: 800;
 }
 
 @font-face {
@@ -26,4 +29,5 @@
 @font-face {
   font-family: "Text Book Italic Font";
   src: url(../assets/fonts/FuseV.2Text-BookItalic.woff2) format("woff2");
+  font: italic;
 }
