@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 450px;
+    margin-bottom: 0;
 }
 .application h2{
     width: 512px;
@@ -68,4 +69,8 @@
 .app-content img{
     width: 444px;
     height: 737px;
+    background: url(./../../assets/images/phone\ screen.png);
+    background-size:72%;
+    background-position: calc(50% - 10px) calc(50% - 35px);
+    background-repeat: no-repeat;
 }
