@@ -1,0 +1,69 @@
+.conference {
+  margin-top: 152px;
+  margin-left: 14%;
+  width: 72%;
+  display: flex;
+  flex-direction: column;
+}
+
+.conference p {
+  text-align: center;
+  font-family: "Fuse V.2 Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.conference h1 {
+  text-align: center;
+  font-family: "Fuse V.2 Display";
+  margin-top: 16px;
+  font-size: 122px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120px;
+  letter-spacing: -2.44px;
+  background: linear-gradient(
+    44.61deg,
+    #00b5c1 9.43%,
+    #4336b9 41.88%,
+    #fa4343 106.56%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.div-text {
+  display: flex;
+  margin-top: 88px;
+  justify-content: center;
+}
+
+.div-button {
+  display: flex;
+  margin-top: 24px;
+  justify-content: center;
+}
+
+.conference span {
+  font-family: "Fuse V.2 Display";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.conference span:first-of-type::after {
+  content: "•";
+  margin: 9px;
+}
+
+.subtitle {
+  margin-top: 352px;
+  text-align: center;
+  font-family: "Fuse V.2 Display";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
