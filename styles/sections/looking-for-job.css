@@ -47,10 +47,18 @@
 .big-job-ads{
     display: flex;
     flex-direction: row;
+    width: 70%;
+    height: 366px;
+    overflow-x: scroll;
+    align-self: center;
+    margin-bottom: 114px;
+}
+.big-job-ads::-webkit-scrollbar{
+    display: none;
 }
 
 .big-job-ad{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     padding: 24px 40px 24px 24px;
 }
@@ -129,4 +137,42 @@
     width: 10px;
     height: 10px;
     padding: 0.208px 2.335px 0.208px 2.355px;
+}
+
+.arrows-intersection{
+    display: flex;
+    padding-left: 312px;
+    margin-bottom: 16px;
+}
+
+.small-job-ads{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 70%;
+    align-self: center;
+}
+.small-job-ads::-webkit-scrollbar{
+    display: none;
+}
+
+.small-job-ad{
+    display: inline-flex;
+    height: 366px;
+    padding: 24px 40px 24px 24px;
+    gap: 24px;
+    margin: 0;
+    margin-right: 32px;
+}
+.small-job-ad .job-main-information{
+
+}
+.small-job-ad .job-title h5{
+    width: 233px;
+    height: 80px;
+    margin-bottom: 0;
+}
+.small-job-ad .job-title span img{
+    width: 5.31px;
+    height: 9.583px;
 }
