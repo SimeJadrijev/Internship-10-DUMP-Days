@@ -1,3 +1,11 @@
+
+/* definitions */
+@import "./definitions/colors.css";
+@import "./definitions/fonts.css";
+
+/* sections */
+@import "./sections/sponsors.css";
+@import "./sections/looking-for-job.css"
 @import "font.css";
 @import "navigation.css";
 @import "main.css";

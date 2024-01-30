@@ -1,0 +1,21 @@
+:root{
+    /*MONO*/
+    --black: #000000;
+    --dark-gray: #f5f5f7;
+    --gray: #F5F5F7;
+    --light-gray: #E9E9EC;
+    --white: #F5F5F7;
+    --white-20: (245, 245, 247, 0.20);
+    --white-5: rgba(245, 245, 247, 0.05);
+
+    /*GRADIENTS*/
+    --gradient-one: linear-gradient(89deg, #37F3E1 -40.27%, #A109FF 101.93%);
+    --gradient-two: linear-gradient(45deg, #00B5C1 9.43%, #4336B9 41.88%, #FA4343 106.56%);
+    --gradient-three: linear-gradient(58deg, #0022C1 26.81%, #7B47B2 57.59%, #ED6AA5 82.34%);
+    --gradient-four: linear-gradient(125deg, #0D8ED3 5.44%, #0B60BB 17.95%, #0A3AA7 36.44%, #6A387D 69.53%, #C53754 105.59%, #FA5240 117.57%);
+    --gradient-five: linear-gradient(180deg, #06F 24.48%, #F00 100%);
+    --gradient-six: linear-gradient(180deg, #06F 24.48%, rgba(0, 209, 255, 0.81) 100%);
+    --gradient-seven: linear-gradient(156deg, #0D8ED3 -0.74%, #0B60BB 11.13%, #0A3AA7 28.67%, #6A387D 60.05%, #C53754 94.26%, #FA5240 105.63%, #FCDDA3 127.15%);
+    --gradient-eight: linear-gradient(123deg, rgba(13, 142, 211, 0.68) -3.37%, rgba(10, 58, 167, 0.68) 17.75%, rgba(197, 55, 84, 0.68) 53.11%, rgba(250, 82, 64, 0.68) 70.34%, rgba(252, 221, 163, 0.68) 103.4%);
+
+}
