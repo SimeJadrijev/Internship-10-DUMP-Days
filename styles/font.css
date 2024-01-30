@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Display Book Font";
+  src: url(../assets/fonts/FuseV.2Display-Book.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Display Book Italic Font";
+  src: url(../assets/fonts/FuseV.2Display-BookItalic.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Display ExtraBold Font";
+  src: url(../assets/fonts/FuseV.2Display-ExtraBold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Display ExtraBoldItalic Font";
+  src: url(../assets/fonts/FuseV.2Display-ExtraBoldItalic.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Text Book Font";
+  src: url(../assets/fonts/FuseV.2Text-Book.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Text Book Italic Font";
+  src: url(../assets/fonts/FuseV.2Text-BookItalic.woff2) format("woff2");
+}
