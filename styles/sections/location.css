@@ -47,11 +47,15 @@
   right: 22%;
 }
 
-.location img {
+.location-img1 {
   width: 100%;
   height: 903px;
   width: 100%;
   display: block;
+}
+
+.location-img2 {
+  display: none;
 }
 
 .location-title span {
@@ -87,4 +91,77 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+  .location {
+    width: 100%;
+    margin-top: 2376px;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: center;
+  }
+
+  .location-img1 {
+    display: none;
+  }
+
+  .location-img2 {
+    display: block;
+    max-width: 100%;
+    height: 344px;
+  }
+
+  .location-title h2 {
+    font-size: 54px;
+    line-height: 56px;
+    letter-spacing: -0.54px;
+  }
+
+  .location-title span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .location-content h4 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 40px;
+  }
+
+  .location-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .location-dimensions1 {
+    top: 255px;
+    left: 6%;
+    right: 6%;
+  }
+
+  .location-dimensions2 {
+    top: 367px;
+    left: 24px;
+    right: 24px;
+  }
+
+  .location-content {
+    display: flex;
+    width: 327px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+    gap: 16px;
+  }
+
+  .location object {
+    width: 17.333px;
+    height: 27.163px;
+    top: 204px;
+    left: 81%;
+    right: 15%;
+  }
 }
