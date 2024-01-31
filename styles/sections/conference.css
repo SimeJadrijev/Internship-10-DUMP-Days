@@ -38,6 +38,10 @@
   display: none;
 }
 
+.mobile2 {
+  display: none;
+}
+
 .div-text {
   display: flex;
   margin-top: 88px;
