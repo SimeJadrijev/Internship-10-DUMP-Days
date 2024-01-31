@@ -62,18 +62,18 @@
   left: 63vw;
   width: 328px;
   height: 540px;
-  z-index: 2;
   background: url("../../assets/images/fly talk 3.png"),
     lightgray -263.694px 0px / 246.155% 100% no-repeat;
   box-shadow: -13px -25px 120px 0px rgba(0, 0, 0, 0.34);
+  z-index: 2;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 376px) {
   .fly-talks {
-    width: 88%;
     gap: 22px;
     margin-left: 6%;
     margin-right: 6%;
+    width: 88%;
     margin-top: 198px;
   }
 
@@ -92,6 +92,7 @@
     left: 0;
     width: 191px;
     height: 252px;
+    overflow: hidden;
     background: linear-gradient(
         123deg,
         rgba(13, 142, 211, 0.68) -3.37%,
@@ -111,6 +112,7 @@
     left: -22px;
     width: 287px;
     height: 190px;
+    overflow: hidden;
     background: linear-gradient(
         123deg,
         rgba(13, 142, 211, 0.68) -3.37%,
@@ -130,7 +132,7 @@
     bottom: -330px;
     left: 188px;
     height: 302px;
-    width: 163px;
+    width: 164px;
     overflow: hidden;
     z-index: 2;
     background: linear-gradient(
@@ -144,7 +146,315 @@
       url("../../assets/images/fly talk 3.1.png"),
       lightgray -157.329px 0px / 250.929% 100.045% no-repeat;
     background-blend-mode: hue, normal;
-
     box-shadow: -13px -25px 120px 0px rgba(0, 0, 0, 0.34);
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 569px) {
+  .fly-talks {
+    gap: 22px;
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 88%;
+    margin-top: 198px;
+  }
+
+  .fly-talks h2 {
+    font-size: 54px;
+    line-height: 68px;
+    letter-spacing: -0.54px;
+  }
+
+  .fly-talks p {
+    width: 327px;
+  }
+
+  .fly-talks-picture1 {
+    bottom: -514px;
+    left: 20vw;
+    width: 191px;
+    height: 252px;
+    overflow: hidden;
+    background: linear-gradient(
+        123deg,
+        rgba(13, 142, 211, 0.68) -3.37%,
+        rgba(10, 58, 167, 0.68) 17.75%,
+        rgba(197, 55, 84, 0.68) 53.11%,
+        rgba(250, 82, 64, 0.68) 70.34%,
+        rgba(252, 221, 163, 0.68) 103.4%
+      ),
+      url("../../assets/images/fly talk 1.1.png"),
+      lightgray 50% / cover no-repeat;
+    background-blend-mode: hue, normal;
+    box-shadow: -13px -25px 120px 0px rgba(0, 0, 0, 0.34);
+  }
+
+  .fly-talks-picture2 {
+    bottom: -284px;
+    left: 4vw;
+    width: 287px;
+    height: 190px;
+    overflow: hidden;
+    background: linear-gradient(
+        123deg,
+        rgba(13, 142, 211, 0.68) -3.37%,
+        rgba(10, 58, 167, 0.68) 17.75%,
+        rgba(197, 55, 84, 0.68) 53.11%,
+        rgba(250, 82, 64, 0.68) 70.34%,
+        rgba(252, 221, 163, 0.68) 103.4%
+      ),
+      url("../../assets/images/fly talk 2.1.png"),
+      lightgray 50% / cover no-repeat;
+    background-blend-mode: hue, normal;
+    box-shadow: -13px -25px 120px 0px rgba(0, 0, 0, 0.34);
+    z-index: 1;
+  }
+
+  .fly-talks-picture3 {
+    bottom: -330px;
+    left: 37vw;
+    height: 302px;
+    width: 164px;
+    overflow: hidden;
+    z-index: 2;
+    background: linear-gradient(
+        123deg,
+        rgba(13, 142, 211, 0.68) -3.37%,
+        rgba(10, 58, 167, 0.68) 17.75%,
+        rgba(197, 55, 84, 0.68) 53.11%,
+        rgba(250, 82, 64, 0.68) 70.34%,
+        rgba(252, 221, 163, 0.68) 103.4%
+      ),
+      url("../../assets/images/fly talk 3.1.png"),
+      lightgray -157.329px 0px / 250.929% 100.045% no-repeat;
+    background-blend-mode: hue, normal;
+    box-shadow: -13px -25px 120px 0px rgba(0, 0, 0, 0.34);
+  }
+}
+
+@media screen and (min-width: 570px) and (max-width: 719px) {
+  .fly-talks {
+    gap: 22px;
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 88%;
+    margin-top: 198px;
+  }
+
+  .fly-talks h2 {
+    font-size: 54px;
+    line-height: 68px;
+    letter-spacing: -0.54px;
+  }
+
+  .fly-talks p {
+    width: 327px;
+  }
+
+  .fly-talks-picture1 {
+    bottom: -514px;
+    left: 30vw;
+    width: 191px;
+    height: 252px;
+    overflow: hidden;
+    background: linear-gradient(
+        123deg,
+        rgba(13, 142, 211, 0.68) -3.37%,
+        rgba(10, 58, 167, 0.68) 17.75%,
+        rgba(197, 55, 84, 0.68) 53.11%,
+        rgba(250, 82, 64, 0.68) 70.34%,
+        rgba(252, 221, 163, 0.68) 103.4%
+      ),
+      url("../../assets/images/fly talk 1.1.png"),
+      lightgray 50% / cover no-repeat;
+    background-blend-mode: hue, normal;
+    box-shadow: -13px -25px 120px 0px rgba(0, 0, 0, 0.34);
+  }
+
+  .fly-talks-picture2 {
+    bottom: -284px;
+    left: 10vw;
+    width: 287px;
+    height: 190px;
+    overflow: hidden;
+    background: linear-gradient(
+        123deg,
+        rgba(13, 142, 211, 0.68) -3.37%,
+        rgba(10, 58, 167, 0.68) 17.75%,
+        rgba(197, 55, 84, 0.68) 53.11%,
+        rgba(250, 82, 64, 0.68) 70.34%,
+        rgba(252, 221, 163, 0.68) 103.4%
+      ),
+      url("../../assets/images/fly talk 2.1.png"),
+      lightgray 50% / cover no-repeat;
+    background-blend-mode: hue, normal;
+    box-shadow: -13px -25px 120px 0px rgba(0, 0, 0, 0.34);
+    z-index: 1;
+  }
+
+  .fly-talks-picture3 {
+    bottom: -330px;
+    left: 50vw;
+    height: 302px;
+    width: 164px;
+    overflow: hidden;
+    z-index: 2;
+    background: linear-gradient(
+        123deg,
+        rgba(13, 142, 211, 0.68) -3.37%,
+        rgba(10, 58, 167, 0.68) 17.75%,
+        rgba(197, 55, 84, 0.68) 53.11%,
+        rgba(250, 82, 64, 0.68) 70.34%,
+        rgba(252, 221, 163, 0.68) 103.4%
+      ),
+      url("../../assets/images/fly talk 3.1.png"),
+      lightgray -157.329px 0px / 250.929% 100.045% no-repeat;
+    background-blend-mode: hue, normal;
+    box-shadow: -13px -25px 120px 0px rgba(0, 0, 0, 0.34);
+  }
+}
+
+@media screen and (max-width: 830px) and (min-width: 720px) {
+  .fly-talks {
+    gap: 22px;
+    margin-top: 198px;
+  }
+
+  .fly-talks h2 {
+    font-size: 54px;
+    line-height: 68px;
+    letter-spacing: -0.54px;
+  }
+
+  .fly-talks p {
+    width: 327px;
+  }
+
+  .fly-talks-picture1 {
+    bottom: 102px;
+    left: 57vw;
+    width: 134px;
+    height: 176px;
+    background: linear-gradient(
+        123deg,
+        rgba(13, 142, 211, 0.68) -3.37%,
+        rgba(10, 58, 167, 0.68) 17.75%,
+        rgba(197, 55, 84, 0.68) 53.11%,
+        rgba(250, 82, 64, 0.68) 70.34%,
+        rgba(252, 221, 163, 0.68) 103.4%
+      ),
+      url("../../assets/images/fly talk 1.1.png"),
+      lightgray 50% / cover no-repeat;
+    background-blend-mode: hue, normal;
+    box-shadow: -13px -25px 120px 0px rgba(0, 0, 0, 0.34);
+  }
+
+  .fly-talks-picture2 {
+    bottom: -27px;
+    left: 42vw;
+    width: 201px;
+    height: 133px;
+    background: linear-gradient(
+        123deg,
+        rgba(13, 142, 211, 0.68) -3.37%,
+        rgba(10, 58, 167, 0.68) 17.75%,
+        rgba(197, 55, 84, 0.68) 53.11%,
+        rgba(250, 82, 64, 0.68) 70.34%,
+        rgba(252, 221, 163, 0.68) 103.4%
+      ),
+      url("../../assets/images/fly talk 2.1.png"),
+      lightgray 50% / cover no-repeat;
+    background-blend-mode: hue, normal;
+    box-shadow: -13px -25px 120px 0px rgba(0, 0, 0, 0.34);
+    z-index: 1;
+  }
+
+  .fly-talks-picture3 {
+    bottom: -86px;
+    height: 211px;
+    width: 115px;
+    left: 70vw;
+    overflow: hidden;
+    z-index: 2;
+    background: linear-gradient(
+        123deg,
+        rgba(13, 142, 211, 0.68) -3.37%,
+        rgba(10, 58, 167, 0.68) 17.75%,
+        rgba(197, 55, 84, 0.68) 53.11%,
+        rgba(250, 82, 64, 0.68) 70.34%,
+        rgba(252, 221, 163, 0.68) 103.4%
+      ),
+      url("../../assets/images/fly talk 3.1.png"),
+      lightgray -157.329px 0px / 250.929% 100.045% no-repeat;
+    background-blend-mode: hue, normal;
+    box-shadow: -13px -25px 120px 0px rgba(0, 0, 0, 0.34);
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 830px) {
+  .fly-talks {
+    margin-left: 70px;
+  }
+
+  .fly-talks h2 {
+    font-size: 54px;
+    line-height: 68px;
+    letter-spacing: -0.54px;
+  }
+
+  .fly-talks p {
+    width: 327px;
+  }
+
+  .fly-talks-picture1 {
+    bottom: 155px;
+    width: 280px;
+    height: 207px;
+  }
+
+  .fly-talks-picture2 {
+    bottom: -53px;
+    left: 37vw;
+    width: 207px;
+    height: 272px;
+  }
+
+  .fly-talks-picture3 {
+    bottom: -110px;
+    left: 63vw;
+    width: 222px;
+    height: 367px;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1101px) {
+  .fly-talks {
+    margin-left: 100px;
+  }
+
+  .fly-talks h2 {
+    font-size: 54px;
+    line-height: 68px;
+    letter-spacing: -0.54px;
+  }
+
+  .fly-talks p {
+    width: 327px;
+  }
+
+  .fly-talks-picture1 {
+    bottom: 160px;
+    width: 329px;
+    height: 243px;
+  }
+
+  .fly-talks-picture2 {
+    width: 243px;
+    height: 320px;
+  }
+
+  .fly-talks-picture3 {
+    width: 262px;
+    height: 432px;
   }
 }
