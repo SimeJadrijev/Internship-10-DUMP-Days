@@ -8,7 +8,7 @@
 .more-questions h2{
     width: 892px;
     height: 118.855px;
-    color: var(--White, #F5F5F7);
+    color: var(--white);
     text-align: center;
     font-family: "Fuse V.2 Display";
     font-size: 122px;
@@ -134,3 +134,31 @@
 }
 /* hover to be added */
 
+@media only screen and (min-width: 375px) and (max-width: 1399px){
+ .more-questions{
+    width: 100%;
+    margin-top: 100px;
+    margin: 0;
+ }   
+ .more-questions h2{
+    width: 300px;
+    font-size: 60px;
+    height: 200px;
+    line-height: 80px;
+ }
+ .input-fields{
+    width: 80%;
+    align-items: flex-start;
+    overflow: hidden;
+ }
+ 
+ .post-input-fields{
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 40px;
+    margin-bottom: 100px;
+ }
+ .post-input-fields p{
+    display: none;
+ }
+}
