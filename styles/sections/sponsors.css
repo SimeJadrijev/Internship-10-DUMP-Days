@@ -172,6 +172,8 @@
         background-color: var(--black);
         display: flex;
         flex-direction: column;
+        /* max-width: 100%;
+        overflow-x: hidden; */
     }
 
     .sponsors{
@@ -219,7 +221,10 @@
         flex-direction: column;
         align-items: center;
         border-bottom: 1px solid rgba(245, 245, 247, 0.1);
-        padding: 48px;
+        margin-bottom: 48px;
+    }
+    .golden-sponsors-about:last-of-type{
+        border-bottom: none;
     }
     .golden-sponsors-about h6{
         color: var(--white);
@@ -241,6 +246,25 @@
     .golden-sponsors-about img{
         width: 327px;
         height: 218px;
+    }
+
+    .golden-sponsors-about-text{
+        padding-bottom: 48px;
+    }
+
+    .sponsors h4{
+        color: var(--white);
+        font-family: "Fuse V.2 Display";
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 40px; /* 111.111% */
+    }
+
+    .silver-sponsors-logos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
     }
 
 
