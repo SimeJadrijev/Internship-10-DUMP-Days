@@ -96,10 +96,11 @@
 @media screen and (max-width: 1000px) {
   .location {
     width: 100%;
-    margin-top: 2376px;
+    margin-top: 907px;
     display: flex;
     overflow-x: hidden;
     justify-content: center;
+    height: 535px;
   }
 
   .location-img1 {
