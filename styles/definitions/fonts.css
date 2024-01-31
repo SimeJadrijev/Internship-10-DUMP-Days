@@ -27,9 +27,11 @@
 @font-face {
   font-family: "Fuse V.2 Text";
   src: url("../../assets/fonts/FuseV.2Text-Book.woff2") format("woff2");
+  font-weight: 400;
 }
 
 @font-face {
   font-family: "Fuse V.2 Text";
   src: url("../../assets/fonts/FuseV.2Text-BookItalic.woff2") format("woff2");
+  font-style: italic;
 }
