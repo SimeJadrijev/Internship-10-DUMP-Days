@@ -117,16 +117,23 @@
         margin-bottom: 0;
     }
 
-    .silver-sponsors-logos{
+    .silver-sponsors-logos-container{
         display: flex;
         flex-direction: row;
+        gap: 100px;
+        margin: 0;
+    }
+    .silver-sponsors-logos{
+        display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
-        width: 1135px;
-        padding-left: 104px;
+        height: 115px;
+        /* padding-left: 104px;
         padding-right: 104px;
-        gap: 108px;
+        gap: 108px; */
         margin: 0;
         justify-content: center;
+
 
     }
     .silver-sponsors-logos img{
@@ -162,6 +169,159 @@
         display: flex;
         gap: 255px;
     }
+
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 1399px){
+
+    body{
+        background-color: var(--black);
+        display: flex;
+        flex-direction: column;
+        
+        /* max-width: 100%;
+        overflow-x: hidden; */
+    }
+
+    .sponsors{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 250px;
+    }
+    .sponsors h2{
+        width: 327px;
+        color: var(--white);
+        text-align: center;
+        font-family: "Fuse V.2 Display";
+        font-size: 54px;
+        font-weight: 800;
+        line-height: 68px; /* 125.926% */
+        letter-spacing: -0.54px;
+        margin-bottom: 132px;
+    }
+
+    .golden-sponsors-logos{
+        display: flex;
+        flex-direction: column;
+        height: 259px;
+        gap: 56px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 119px;
+    }
+    .golden-sponsors-logos svg{
+        height: 46px;
+        width: 247px;
+        padding: 8px 8px 12px 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divider{
+        display: none;
+    }
+
+    .golden-sponsors-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid rgba(245, 245, 247, 0.1);
+        margin-bottom: 48px;
+    }
+    .golden-sponsors-about:last-of-type{
+        border-bottom: none;
+    }
+    .golden-sponsors-about h6{
+        color: var(--white);
+        font-family: "Fuse V.2 Display";
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32px; /* 133.333% */
+        letter-spacing: 0.48px;
+    }
+    .golden-sponsors-about p{
+        width: 327px;
+        color: var(--light-gray);
+        font-family: "Fuse V.2 Text";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+    .golden-sponsors-about img{
+        width: 327px;
+        height: 218px;
+    }
+
+    .golden-sponsors-about-text{
+        padding-bottom: 48px;
+    }
+
+    .sponsors h4{
+        color: var(--white);
+        font-family: "Fuse V.2 Display";
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 40px; /* 111.111% */
+    }
+
+    .silver-sponsors-logos-container{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .silver-sponsors-logos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    #bronze-sponsors-title, #organization-partners-title,
+    #giveaway-sponsor-title, #friends-title, #media-sponsors-title{
+        margin-top: 224px;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 40px; /* 111.111% */
+        width: 310px;
+        text-align: center;
+    }
+
+    .bronze-sponsors-logos{
+        display: flex;
+        gap: 50px;
+    }
+
+    .media-sponsors-logos{
+        width: 279px;   
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .media-sponsors-logos img{
+        width: 100px;
+        height: 15px;
+        padding: 10px 15px;
+    }
+    .organization-partners-logos img:nth-child(1){
+        display: none;
+    }
+    .organization-partners-logos img:nth-child(3){
+        display: none;
+    }
+
+    
+
+
+
+
 
 
 
