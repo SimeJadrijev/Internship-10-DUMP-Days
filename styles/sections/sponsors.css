@@ -117,16 +117,23 @@
         margin-bottom: 0;
     }
 
-    .silver-sponsors-logos{
+    .silver-sponsors-logos-container{
         display: flex;
         flex-direction: row;
+        gap: 100px;
+        margin: 0;
+    }
+    .silver-sponsors-logos{
+        display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
-        width: 1135px;
-        padding-left: 104px;
+        height: 115px;
+        /* padding-left: 104px;
         padding-right: 104px;
-        gap: 108px;
+        gap: 108px; */
         margin: 0;
         justify-content: center;
+
 
     }
     .silver-sponsors-logos img{
