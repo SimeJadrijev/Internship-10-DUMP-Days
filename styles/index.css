@@ -16,7 +16,9 @@
 @import "./sections/more-questions.css";
 @import "./sections/footer.css";
 
-
+body{
+  width: 100%;
+}
 button {
   height: 44px;
   width: 154px;

@@ -164,5 +164,87 @@
     }
 
 
+}
+
+@media only screen and (min-width: 375px) and (max-width: 1399px){
+
+    body{
+        background-color: var(--black);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sponsors{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 250px;
+    }
+    .sponsors h2{
+        width: 327px;
+        color: var(--white);
+        text-align: center;
+        font-family: "Fuse V.2 Display";
+        font-size: 54px;
+        font-weight: 800;
+        line-height: 68px; /* 125.926% */
+        letter-spacing: -0.54px;
+        margin-bottom: 132px;
+    }
+
+    .golden-sponsors-logos{
+        display: flex;
+        flex-direction: column;
+        height: 259px;
+        gap: 56px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 119px;
+    }
+    .golden-sponsors-logos svg{
+        height: 46px;
+        width: 247px;
+        padding: 8px 8px 12px 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divider{
+        display: none;
+    }
+
+    .golden-sponsors-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid rgba(245, 245, 247, 0.1);
+        padding: 48px;
+    }
+    .golden-sponsors-about h6{
+        color: var(--white);
+        font-family: "Fuse V.2 Display";
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 32px; /* 133.333% */
+        letter-spacing: 0.48px;
+    }
+    .golden-sponsors-about p{
+        width: 327px;
+        color: var(--light-gray);
+        font-family: "Fuse V.2 Text";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+    .golden-sponsors-about img{
+        width: 327px;
+        height: 218px;
+    }
+
+
+
+
 
 }
