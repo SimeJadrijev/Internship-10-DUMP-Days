@@ -74,3 +74,48 @@
     background-position: calc(50% - 10px) calc(50% - 35px);
     background-repeat: no-repeat;
 }
+
+@media only screen and (min-width: 375px) and (max-width: 1399px){
+    .application{
+        margin-top: 200px;
+        
+    }
+    .application h2{
+        width: 327px;
+        color: var(--white);
+        font-family: "Fuse V.2 Display";
+        font-size: 54px;
+        font-weight: 800;
+        line-height: 68px; /* 125.926% */
+        letter-spacing: -0.54px;
+        text-align: center;
+    }
+
+    .app-content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .app-content span{
+        display: none;
+    }
+    .app-content img{
+        margin-top: -100px;
+        margin-bottom: -200px;
+    }
+
+    .my-schedule h4{
+        width: 327px;
+        color: var(--white);
+        font-family: "Fuse V.2 Display";
+        font-size: 54px;
+        font-weight: 800;
+        line-height: 68px; /* 125.926% */
+        letter-spacing: -0.54px;
+        text-align: center;
+    }
+    .my-schedule p{
+        font-size: 16px;
+    }
+    
+
+}
