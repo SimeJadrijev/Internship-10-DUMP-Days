@@ -71,6 +71,35 @@
     margin: 33px 0;
 }
 
-.faq img{
-    
+@media only screen and (min-width: 375px) and (max-width: 800px){
+    .faq{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .faq-left-side{
+        margin-top: 250px;
+    }
+    .faq-left-side h4{
+        font-size: 38px;
+        align-self: center;
+        text-align: center;
+    }
+    .faq-left-side h4 span{
+        font-size: 38px;
+    }
+
+    #faq-title{
+        display: none;
+    }
+
+    .faq-left-side p{
+        width: 90%;
+        padding-left: 20px;
+    }
+
+    .faq-separator{
+        width: 90%;
+        align-self: center;
+    }
 }

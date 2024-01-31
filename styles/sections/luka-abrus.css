@@ -12,6 +12,7 @@
 .luka-abrus img{
     height: 496px;
     align-self: self-end;
+    background-color: transparent;
 }
 
 .luka-abrus-content{
@@ -19,6 +20,7 @@
     flex-direction: column;
     margin: 0;
     margin-top: 133px;
+    background-color: transparent;
 }
 .luka-abrus-content h3{
     color: var(--white);
@@ -28,6 +30,8 @@
     line-height: 88px; /* 108.642% */
     letter-spacing: -1.62px;
     margin: 0;
+    background-color: transparent;
+
 }
 .luka-abrus-content p{
     color: var(--white);
@@ -40,4 +44,60 @@
     margin: 0;
     margin-bottom: 32px;
     margin-top: 24px;
+    background-color: transparent;
+
+}
+.luka-abrus-content svg{
+    background-color: transparent;
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 1399px){
+    .luka-abrus{
+        background-image: url(../../assets/images/luka\ abrus\ background\ mv.png);
+        height: 950px;
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+    }
+
+    .luka-abrus-content{
+        height: 862px;
+        padding-top: 10px;
+        margin-top: 113px;
+    }
+    .luka-abrus-content h3{
+        width: 327px;
+        color: var(--white);
+        font-family: "Fuse V.2 Display";
+        font-size: 54px;
+        font-weight: 800;
+        line-height: 68px; /* 125.926% */
+        letter-spacing: -0.54px;
+        text-align: center;
+        background-color: transparent;
+
+    }
+    .luka-abrus-content p{
+        width: 327px;
+        color: var(--light-gray);
+        font-family: "Fuse V.2 Text";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        background-color: transparent;
+    }
+    .luka-abrus-content svg{
+        background-color: transparent;
+        position: relative;
+        left: 37%;
+    }
+
+    .luka-abrus img{
+        position: relative;
+        align-self: center;
+        height: 50%;
+        bottom: 105px;
+    }
+    
 }

@@ -53,3 +53,19 @@ footer{
     height: 19.809px;
     margin-left: 24px;
 }
+
+@media only screen and (min-width: 375px) and (max-width: 1399px){
+    footer{
+        width: 100%;
+    }
+
+    .footer-content{
+        flex-direction: column-reverse;
+        gap: 20px;
+        align-items: center;
+    }
+    .footer-content p{
+        text-align: center;
+    }
+
+}
