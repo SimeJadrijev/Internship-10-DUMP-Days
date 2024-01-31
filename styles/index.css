@@ -4,7 +4,29 @@
 @import "./definitions/fonts.css";
 
 /* sections */
+
+/* .container {
+    width: min(100% - 3rem, 900px);
+    margin-inline: auto;
+} */
+
+/* .asd {
+    display: grid;
+    grid-template-areas: "
+        "prvi", "drugi", "treci"
+    "
+}
+
+div {
+    grid-area: a;
+} */
+
 @import "./sections/sponsors.css";
+<<<<<<< HEAD
+@import "./sections/looking-for-job.css";
+@import "./sections/application.css";
+@import "./sections/luka-abrus.css";
+=======
 @import "./sections/looking-for-job.css"
 @import "font.css";
 @import "navigation.css";
@@ -61,3 +83,4 @@ button:hover {
   animation-timing-function: ease-out;
   animation-duration: 300ms;
 }
+>>>>>>> 40d042cc540c0474525821d3a422d01c60af5887
