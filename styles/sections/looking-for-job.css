@@ -12,7 +12,7 @@
 }
 .looking-for-job-intro h4{
     color: var(--white);
-    font-family: "FuseV2Display-Regular";
+    font-family: "Fuse V.2 Display";
     font-size: 54px;
     font-weight: 800;
     line-height: 68px; /* 125.926% */
@@ -24,7 +24,7 @@
 }
 .looking-for-job-intro p{
     color: var(--light-gray);
-    font-family: "FuseV2Text-Regular";
+    font-family: "Fuse V.2 Text";
     font-size: 16px;
     font-weight: 400;
     line-height: 24px; /* 150% */
@@ -83,7 +83,7 @@
 .job-title h5{
     width: 233px;
     color: var(--white);
-    font-family: "FuseV2Display-Regular";
+    font-family: "Fuse V.2 Display";
     font-size: 36px;
     font-weight: 800;
     line-height: 40px; /* 111.111% */
@@ -92,7 +92,7 @@
 
 .job-main-information span{
     color: var(--white);
-    font-family: "FuseV2Display-Regular";
+    font-family: "Fuse V.2 Display";
     font-size: 16px;
     font-weight: 400;
     line-height: 16px; /* 100% */
@@ -112,7 +112,7 @@
 }
 .job-caption p{
     color: var(--light-gray);
-    font-family: "FuseV2Text-Regular";
+    font-family: "Fuse V.2 Text";
     font-size: 16px;
     font-weight: 400;
     line-height: 24px; /* 150% */
@@ -123,7 +123,7 @@
     flex-direction: row;
     align-items: center;
     color: var(--white);
-    font-family: "FuseV2Display-Regular";
+    font-family: "Fuse V.2 Display";
     font-size: 16px;
     font-weight: 400;
     line-height: 16px; /* 100% */

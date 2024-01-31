@@ -1,5 +1,5 @@
 @font-face{
-    font-family: "FuseV2Display-Regular";
+    font-family: "Fuse V.2 Display";
     src: url("../../assets/fonts/FuseV.2Display-Book.woff2") format("woff2");
 }
 
@@ -19,7 +19,7 @@
 }
 
 @font-face{
-    font-family: "FuseV2Text-Regular";
+    font-family: "Fuse V.2 Text";
     src: url("../../assets/fonts/FuseV.2Text-Book.woff2") format("woff2");
 }
 
