@@ -64,7 +64,7 @@
     .luka-abrus-content{
         height: 862px;
         padding-top: 10px;
-        margin-top: -50px;
+        margin-top: 113px;
     }
     .luka-abrus-content h3{
         width: 327px;
@@ -97,8 +97,7 @@
         position: relative;
         align-self: center;
         height: 50%;
-        bottom: 118px;
-
+        bottom: 105px;
     }
     
 }
