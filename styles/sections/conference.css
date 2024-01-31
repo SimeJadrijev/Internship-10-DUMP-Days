@@ -77,7 +77,7 @@
   }
 
   .mobile {
-    display: block;
+    display: flex;
   }
 
   .conference {

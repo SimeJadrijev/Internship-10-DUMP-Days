@@ -1,7 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
-  border: 0;
+  box-sizing: border-box;
   background-color: var(--black, #000000);
   color: var(--white, #f5f5f7);
 }
@@ -98,4 +97,20 @@ nav {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+    margin: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+  }
+
+  .smaller-logo {
+    width: 24px;
+    height: 29px;
+    flex-shrink: 0;
+  }
 }

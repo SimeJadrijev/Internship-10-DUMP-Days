@@ -1,0 +1,132 @@
+.statistics {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 80px;
+  margin-top: 216px;
+  margin-left: 15%;
+  width: 85%;
+  overflow-x: scroll;
+}
+
+.statistics::-webkit-scrollbar {
+  display: none;
+}
+
+.statistic-num {
+  font-family: "Fuse V.2 Display";
+  font-size: 122px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120px;
+  letter-spacing: -2.44px;
+}
+
+.statistics-number1 {
+  background: conic-gradient(
+    from 90deg at 73.72% 50%,
+    #6a4293 89.2747038602829deg,
+    #c75593 202.73809432983398deg
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.statistics-number2 {
+  background: conic-gradient(
+    from 118deg at 29.17% 50%,
+    #2361a6 107.5842833518982deg,
+    #c75593 232.76602506637573deg,
+    #694696 336.43709421157837deg
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.statistics-number3 {
+  background: conic-gradient(
+    from 118deg at 29.17% 50%,
+    #2361a6 38.25952559709549deg,
+    #694696 319.5926070213318deg
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.statistics-number4 {
+  background: conic-gradient(
+    from 104deg at -7.1% 67.63%,
+    #2361a6 281.6798400878906deg,
+    #694696 332.49330282211304deg,
+    #c75593 358.1250071525574deg
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.statistics-number5 {
+  background: conic-gradient(
+    from 80deg at 53.24% 50%,
+    #804b73 97.9131817817688deg,
+    #ab415c 150.00729203224182deg,
+    #c35493 216.7587947845459deg,
+    #694696 312.76647090911865deg
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.statistics-number6 {
+  background: conic-gradient(
+    from 70deg at 62.39% 60.9%,
+    #c88f6f 117.4518620967865deg,
+    #ab415c 221.5480399131775deg,
+    #804b73 291.4208722114563deg,
+    #694696 321.2520360946655deg
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.statistics-description {
+  font-family: "Fuse V.2 Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.statistics-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+@media screen and (max-width: 1000px) {
+  .statistics {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 272px;
+  }
+
+  .statistic-num {
+    font-size: 54px;
+    line-height: 68px;
+    letter-spacing: -0.54px;
+  }
+
+  .statistics-container {
+    gap: 2px;
+    align-items: center;
+  }
+}
