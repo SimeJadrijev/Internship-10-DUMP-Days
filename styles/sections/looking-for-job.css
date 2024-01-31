@@ -258,6 +258,26 @@
         margin-bottom: 10px;
     }
 
+    .arrows-intersection .arrows{
+        display: flex;
+    }
+    .arrows-intersection{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 30px;
+    }
+
+    .small-job-ad{
+        display: none;
+    }
+    .small-job-ad:first-of-type{
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+    }
+
+
 
 }
 
