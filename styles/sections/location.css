@@ -1,0 +1,168 @@
+.location {
+  position: relative;
+  width: 100%;
+  height: 903px;
+  margin-top: 533px;
+}
+
+.location-title {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: transparent;
+}
+
+.location-dimensions1 {
+  position: absolute;
+  top: 259px;
+  left: 14%;
+  right: 68%;
+  background-color: transparent;
+}
+
+.location-dimensions2 {
+  position: absolute;
+  top: 425px;
+  left: 14%;
+  right: 59%;
+  background-color: transparent;
+}
+
+.location-content {
+  display: flex;
+  width: 402px;
+  flex-direction: column;
+  background-color: transparent;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.location object {
+  position: absolute;
+  background-color: transparent;
+  width: 160px;
+  height: 143px;
+  top: 476px;
+  left: 67%;
+  right: 22%;
+}
+
+.location-img1 {
+  width: 100%;
+  height: 903px;
+  width: 100%;
+  display: block;
+}
+
+.location-img2 {
+  display: none;
+}
+
+.location-title span {
+  font-family: "Fuse V.2 Display";
+  background-color: transparent;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.location-title h2 {
+  font-family: "Fuse V.2 Display";
+  background-color: transparent;
+  font-size: 122px;
+  font-weight: 800;
+  line-height: 120px;
+  letter-spacing: -2.44px;
+}
+
+.location-content h4 {
+  font-family: "Fuse V.2 Display";
+  background-color: transparent;
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: -0.54px;
+}
+
+.location-content p {
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.51);
+  font-family: "Fuse V.2 Text";
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+  .location {
+    width: 100%;
+    margin-top: 907px;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: center;
+    height: 535px;
+  }
+
+  .location-img1 {
+    display: none;
+  }
+
+  .location-img2 {
+    display: block;
+    width: 100%;
+    height: 344px;
+  }
+
+  .location-title h2 {
+    font-size: 54px;
+    line-height: 56px;
+    letter-spacing: -0.54px;
+  }
+
+  .location-title span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .location-content h4 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 40px;
+  }
+
+  .location-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .location-dimensions1 {
+    top: 255px;
+    left: 6%;
+    right: 6%;
+  }
+
+  .location-dimensions2 {
+    top: 367px;
+    left: 24px;
+    right: 24px;
+  }
+
+  .location-content {
+    display: flex;
+    width: 327px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+    gap: 16px;
+  }
+
+  .location object {
+    width: 17.333px;
+    height: 27.163px;
+    top: 204px;
+    left: 81%;
+    right: 15%;
+  }
+}
