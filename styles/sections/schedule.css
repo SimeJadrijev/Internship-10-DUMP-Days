@@ -4,6 +4,7 @@
   font-weight: 800;
   line-height: 120px;
   letter-spacing: -2.44px;
+  z-index: 1;
 }
 
 .schedule {
@@ -14,7 +15,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: 1;
 }
 
 .tabs {
@@ -31,7 +31,9 @@
 }
 
 .tabs a:first-of-type {
-  text-decoration: underline;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
   background: var(
     --Gradients-Button,
     linear-gradient(
@@ -55,14 +57,18 @@ hr {
   flex-shrink: 0;
   align-self: stretch;
   opacity: 0.1;
+  position: relative;
+  bottom: -8px;
   background: var(--White, #f5f5f7);
 }
 
 .tabs a:first-of-type::after {
   content: "";
-  height: 1px;
   position: absolute;
-  opacity: 0.1;
+  height: 1px;
+  left: -8px;
+  bottom: -9px;
+  width: 112px;
   background: linear-gradient(
     125deg,
     #0d8ed3 5.44%,
@@ -75,6 +81,10 @@ hr {
 }
 
 .tabs a:last-of-type {
+  color: var(--Dark-gray, #54545f);
+}
+
+.events p:is(:nth-child(5), :nth-child(3)) {
   color: var(--Dark-gray, #54545f);
 }
 
@@ -98,12 +108,16 @@ hr {
 }
 
 .main-event {
-  margin-top: 49px;
   display: flex;
   margin: 32px 32px 24px 32px;
   align-items: flex-start;
   gap: 39px;
   flex: 1 0 0;
+  align-self: stretch;
+}
+
+.increas-top-margine {
+  margin: 89px 32px 24px 32px;
 }
 
 .main-event-time {
@@ -133,6 +147,22 @@ hr {
   align-items: flex-start;
   gap: 10px;
   color: var(--white);
+  background: linear-gradient(
+    123.15deg,
+    rgba(13, 143, 211, 0.68) -3.37%,
+    rgba(10, 58, 167, 0.68) 17.75%,
+    rgba(197, 55, 84, 0.68) 53.11%,
+    rgba(250, 82, 64, 0.68) 70.34%,
+    rgba(252, 221, 163, 0.68) 103.4%
+  );
+  background: #ffffff1a;
+}
+
+.title-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .title {
@@ -140,7 +170,6 @@ hr {
   align-items: center;
   gap: 11px;
   align-self: stretch;
-  width: 482px;
 }
 
 .sub {
@@ -247,19 +276,18 @@ hr {
 
 .firm {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   gap: 10px;
   align-self: stretch;
-  width: 85.999px;
-  height: 20.045px;
 }
 
 .dot::after {
   content: "•";
   margin-left: 12px;
   margin-right: 12px;
+  height: 4px;
+  width: 4px;
 }
 
 @media screen and (max-width: 1000px) {

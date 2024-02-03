@@ -1,33 +1,36 @@
 .inovators {
   margin-top: 456px;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  position: relative;
+}
+
+.inovators-description {
+  position: sticky;
+  position: -webkit-sticky;
   display: inline-flex;
   height: 334px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
+  gap: 24px;
   flex-shrink: 0;
   width: 482px;
   margin-left: 104px;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+  margin-top: 96px;
   top: 0;
 }
 
-.inovators h3 {
+.inovators-description h3 {
   font-family: "Fuse V.2 Display";
   font-size: 81px;
   font-style: normal;
   font-weight: 800;
-  line-height: 88px; /* 108.642% */
+  line-height: 88px;
   letter-spacing: -1.62px;
 }
 
-.in {
-  display: flex;
-  justify-content: space-between;
-}
-
-.inovators p {
+.inovators-description p {
   font-family: "Fuse V.2 Text";
   font-size: 16px;
   font-style: normal;
@@ -36,9 +39,23 @@
 }
 
 .inovators-people {
+  width: 50vw;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(156px, 1fr));
-  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 216px));
+  justify-content: space-around;
+  gap: 24px;
+}
+
+.inovators-people .one-person:nth-child(3n + 4) {
+  margin-top: -112px;
+}
+
+.inovators-people .one-person:nth-child(2) {
+  padding-top: 112px;
+}
+
+.inovators-people .one-person:nth-child(3n + 6) {
+  margin-top: -112px;
 }
 
 .one-person {
@@ -48,10 +65,15 @@
   gap: 12px;
 }
 
+.one-person div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
 .one-person-name {
   font-family: "Fuse V.2 Display";
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 16px;
 }
@@ -60,25 +82,28 @@
   color: var(--Dark-gray, #54545f);
   font-family: "Fuse V.2 Display";
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 16px; /* 100% */
+  line-height: 16px;
   letter-spacing: -1px;
 }
 
 .one-person object {
-  width: 77.314px;
-  height: 18.021px;
+  width: 77px;
+  height: 18px;
 }
 
 .one-person img {
   width: 216px;
   height: 312px;
-  flex-shrink: 0;
+  background: linear-gradient(
+    123.15deg,
+    rgba(13, 143, 211, 0.68) -3.37%,
+    rgba(10, 58, 167, 0.68) 17.75%,
+    rgba(197, 55, 84, 0.68) 53.11%,
+    rgba(250, 82, 64, 0.68) 70.34%,
+    rgba(252, 221, 163, 0.68) 103.4%
+  );
 }
 
-@media screen and (max-width: 1000px) {
-  .inovators-people {
-    gap: 24px;
-  }
+@media screen and (max-width: 1300px) {
 }
