@@ -53,6 +53,9 @@ footer{
     height: 19.809px;
     margin-left: 24px;
 }
+#dump-icon-for-mobile{
+    display: none;
+}
 
 @media only screen and (min-width: 375px) and (max-width: 1399px){
     footer{
@@ -66,6 +69,15 @@ footer{
     }
     .footer-content p{
         text-align: center;
+    }
+    #dump-icon-for-mobile{
+        display: flex;
+        order: 1;
+        width: 67px;
+        height: 25px;
+    }
+    .social-media-4 svg{
+        display: none;
     }
 
 }
