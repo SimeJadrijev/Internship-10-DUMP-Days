@@ -254,10 +254,14 @@
     .golden-sponsors-about img{
         width: 327px;
         height: 218px;
+        margin-bottom: 50px;
     }
 
     .golden-sponsors-about-text{
         padding-bottom: 48px;
+    }
+    .golden-sponsors-about-text h6{
+        margin-bottom: 20px;
     }
 
     .sponsors h4{
