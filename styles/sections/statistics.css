@@ -24,8 +24,10 @@
 .statistics-number1 {
   background: conic-gradient(
     from 90deg at 73.72% 50%,
-    #6a4293 89.2747038602829deg,
-    #c75593 202.73809432983398deg
+    #c75593 -157.26deg,
+    #6a4293 89.27deg,
+    #c75593 202.74deg,
+    #6a4293 449.27deg
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -34,10 +36,12 @@
 
 .statistics-number2 {
   background: conic-gradient(
-    from 118deg at 29.17% 50%,
-    #2361a6 107.5842833518982deg,
-    #c75593 232.76602506637573deg,
-    #694696 336.43709421157837deg
+    from 117.55deg at 29.17% 50%,
+    #694696 -23.56deg,
+    #2361a6 107.58deg,
+    #c75593 232.77deg,
+    #694696 336.44deg,
+    #2361a6 467.58deg
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -46,9 +50,11 @@
 
 .statistics-number3 {
   background: conic-gradient(
-    from 118deg at 29.17% 50%,
-    #2361a6 38.25952559709549deg,
-    #694696 319.5926070213318deg
+    from 117.55deg at 29.17% 50%,
+    #694696 -40.41deg,
+    #2361a6 38.26deg,
+    #694696 319.59deg,
+    #2361a6 398.26deg
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -57,10 +63,12 @@
 
 .statistics-number4 {
   background: conic-gradient(
-    from 104deg at -7.1% 67.63%,
-    #2361a6 281.6798400878906deg,
-    #694696 332.49330282211304deg,
-    #c75593 358.1250071525574deg
+    from 103.77deg at -7.1% 67.63%,
+    #c75593 -1.87deg,
+    #2361a6 281.68deg,
+    #694696 332.49deg,
+    #c75593 358.13deg,
+    #2361a6 641.68deg
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -69,11 +77,13 @@
 
 .statistics-number5 {
   background: conic-gradient(
-    from 80deg at 53.24% 50%,
-    #804b73 97.9131817817688deg,
-    #ab415c 150.00729203224182deg,
-    #c35493 216.7587947845459deg,
-    #694696 312.76647090911865deg
+    from 80.16deg at 53.24% 50%,
+    #694696 -47.23deg,
+    #804b73 97.91deg,
+    #ab415c 150.01deg,
+    #c35493 216.76deg,
+    #694696 312.77deg,
+    #804b73 457.91deg
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -82,11 +92,13 @@
 
 .statistics-number6 {
   background: conic-gradient(
-    from 70deg at 62.39% 60.9%,
-    #c88f6f 117.4518620967865deg,
-    #ab415c 221.5480399131775deg,
-    #804b73 291.4208722114563deg,
-    #694696 321.2520360946655deg
+    from 70.42deg at 62.39% 60.9%,
+    #694696 -38.75deg,
+    #c88f6f 117.45deg,
+    #ab415c 221.55deg,
+    #804b73 291.42deg,
+    #694696 321.25deg,
+    #c88f6f 477.45deg
   );
   background-clip: text;
   -webkit-background-clip: text;
