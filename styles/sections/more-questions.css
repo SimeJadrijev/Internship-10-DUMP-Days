@@ -40,11 +40,19 @@
     padding: 8px;
 }
 
+.more-questions-bottom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
 .input-fields{
     width: 504px;
     height: 247px;
     display: flex;
     flex-direction: column;
+
 }
 
 #sta-te-zanima {
@@ -145,6 +153,12 @@
     font-size: 60px;
     height: 200px;
     line-height: 80px;
+ }
+
+ .more-questions-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
  .input-fields{
     width: 80%;
