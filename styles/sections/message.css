@@ -1,0 +1,42 @@
+.message h4 {
+  font-family: "Fuse V.2 Display";
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  background: linear-gradient(
+    43.3deg,
+    #00b5c1 -0.22%,
+    #4336b9 38.51%,
+    #fa4343 121.6%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.message p {
+  font-family: "Fuse V.2 Display";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.message {
+  margin-top: 190px;
+  width: 56vw;
+  margin-left: 22vw;
+  margin-right: 22vw;
+}
+
+@media screen and (max-width: 1000px) {
+  .message h4 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+  }
+}

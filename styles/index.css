@@ -15,5 +15,8 @@
 @import "./sections/statistics.css";
 @import "./sections/fly-talks.css";
 @import "./sections/footer.css";
-
-
+@import "./sections/location.css";
+@import "./sections/follow-us-online.css";
+@import "./sections/schedule.css";
+@import "./sections/inovators.css";
+@import "./sections/message.css";
